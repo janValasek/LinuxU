@@ -1,0 +1,20 @@
+
+touch output.txt - new file create 
+cat output.txt -reads file
+
+
+
+
+
+
+
+
+
+
+echo "# LinuxU" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/janValasek/LinuxU.git
+git push -u origin main
